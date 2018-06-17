@@ -1,0 +1,9 @@
+C:\Users\Yuval\github\atom-test\templates.h:14:14: error: conflicting declaration 'int Test<T>::n'
+ int Test<T>::n = T();
+              ^
+C:\Users\Yuval\github\atom-test\templates.h:5:12: note: previous declaration as 'T Test<T>::n'
+   static T n;
+            ^
+C:\Users\Yuval\github\atom-test\templates.h:14:14: error: declaration of 'T Test<T>::n' outside of class is not definition [-fpermissive]
+ int Test<T>::n = T();
+              ^
